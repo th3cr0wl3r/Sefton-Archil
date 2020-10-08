@@ -10,14 +10,6 @@ Pro Person werden ca. 0,25g gutes Hasch gebraucht um ein angenehmes High zu erre
 
 Space Cookies
 
-Man braucht:
-
-2,5g Hasch
-50g Butter
-1/2 Ei
-50g Zucker
-40g Mehl
-1 Teelöffel Vanillezucker
 
 Zubereitung:
 
@@ -32,6 +24,16 @@ Zubereitung:
 
 
 
+
+Man braucht:
+
+2,5g Hasch
+50g Butter
+1/2 Ei
+50g Zucker
+40g Mehl
+1 Teelöffel Vanillezucker
+
 Fudges
 
 Man braucht:
@@ -43,6 +45,10 @@ Man braucht:
 150g Zucker
 
 Zubereitung:
+
+ async getInvoice(id: string) {
+    return await this.invoiceRepository.findOne(id);
+  }
 
 1. Alle Zutaten in einen Topf geben.
 2. Bei kleiner Hitze rühren bis der Zucker aufgelöst ist.
