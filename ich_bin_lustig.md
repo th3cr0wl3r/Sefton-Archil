@@ -1,2 +1,0 @@
-hi.
-Und jetzt lach!
